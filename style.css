@@ -17,6 +17,11 @@ body {
      background-image: -webkit-linear-gradient(bottom, #F58B27 0%, #FF4583 100%);
      background-image: -ms-linear-gradient(bottom, #F58B27 0%, #FF4583 100%);
      background-image: linear-gradient(to bottom, #F58B27 0%, #FF4583 100%);
+     background-repeat: no-repeat;
+}
+
+#contact {
+     height: 960px;
 }
 
 #shorthr {
