@@ -1,7 +1,7 @@
 body {
      font-family: 'Cutive Mono', monospace;
      font-size: 1.1em;
-     width: 960px;
+     width: 1024px;
      /* Using a webkit/moz/o/ms items allows a developer to be able to go beyond basic CSS
      and style for specific browsers using properties that have not been standardized
      by the W3 community */
@@ -24,8 +24,12 @@ body {
 }
 
 main {
-     max-width: 860px;
-     margin: 70px 25px 25px 25px;
+     text-align: center;
+     max-width: 960px;
+     margin-top: 70px;
+     margin-left: 25px;
+     margin-right: 25px;
+     margin-bottom: 25px;
      background-color: #EFEFEF;
      border-radius: 5px;
 }
@@ -54,25 +58,37 @@ a:active {
      color: #F4A83B;
 }
 
-img {
+img.dbells {
      border: 4px;
      border-style: inset;
      border-color: white;
+     width: 50%;
+}
+
+img.frogs {
+     border: 4px;
+     border-style: inset;
+     border-color: white;
+     width: 50%;
 }
 
 p {
-     text-align: center;
      max-width: 70%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+#header {
+     text-align: center;
 }
 
 #gymprob {
-     text-align: center;
      width: 960px;
      margin-top: 22px;
 }
 
 #mateprob {
-     text-align: center;
      width: 960px;
 }
 
@@ -82,6 +98,11 @@ p {
      display: block;
      margin-left: auto;
      margin-right: auto;
+}
+
+#bodylist {
+     text-align: left;
+     width: 400px;
 }
 
 .bodylink {
