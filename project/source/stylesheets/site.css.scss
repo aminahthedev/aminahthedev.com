@@ -1,0 +1,185 @@
+body {
+/*   background-image: url('https://i.imgur.com/lpd3mR6.jpg');  */
+  background-color: white;
+  font-family: monospace;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+/*   padding-top: 74px; */
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #4BAAF1;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #B75066;
+}
+
+a:hover {
+  color: #49155D;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+/*-------NAV-------*/
+ul a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+ul a:visited {
+  color: #F9BD42;
+}
+
+ul a:hover {
+  color: #CBE9FE;
+}
+
+.flex-nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  position: fixed;
+  top: -20px;
+  left: 0;
+  overflow: scroll;
+}
+
+#header-a {
+  margin-left: -50px;
+  margin-right: 150px;
+  font-size: 1.9em;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.flex-nav {
+  margin-right: 25px;
+  padding-right: 10px;
+  font-size: 1.2em;
+  padding-right: 20px;
+}
+
+/*----- ABOUT -----*/
+#about {
+  background: linear-gradient(0deg, RGBA(25, 46, 65, .90), rgba(73, 21, 93, 0.5)), url('https://i.imgur.com/gfCdHwl.jpg');
+  background-color: #192E41;
+  background-size: cover;
+  border-radius: 0 0 3px 3px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #FFF;
+}
+
+img {
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-blurb {
+  font-size: 1.5em;
+  text-align: justify;
+  text-indent: 50px;
+  padding: 0 20px 0 20px;
+  width: 60%;
+}
+
+/*----- PORTFOLIO -----*/
+
+.flex-portfolio {
+  margin-top: 60px;
+  margin-right: 100px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 50px;
+/*   width: 70%; */
+}
+
+#portfolio {
+
+}
+
+.portfolio-item {
+  width: 200px;
+  height: 200px;
+  background-color: RGBA(25, 46, 65, 1.00);
+  margin-bottom: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+/*----- CONTACT -----*/
+.contact {
+  background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(0deg, rgba(60, 215, 172, 0.5), rgba(73, 21, 93, 0.5)), url('https://i.imgur.com/jP6Jk1t.jpg');
+  background-size: cover;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.form-container {
+  width: 60%;
+  padding: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form .button{
+  margin-top:15px;
+  width: 40%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.2em;
+  background-color: #009900;
+  color: #ffffff;
+}
+
+form textarea, input:not(.button) {
+  border: none;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 3px;
+  width: 90%;
+  font-size: 1em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
