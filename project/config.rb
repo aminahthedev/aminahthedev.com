@@ -21,10 +21,10 @@ page '/*.txt', layout: false
 
 # Activate Blog
 
-activate :blog do |blog|
-  blog.name = "blog"
-  blog.prefix = "blog"
-end
+# activate :blog do |blog|
+#   blog.name = "blog"
+#   blog.prefix = "blog"
+# end
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
@@ -36,11 +36,11 @@ end
 #     which_fake_page: 'Rendering a fake page with a local variable'
 #   },
 # )
-activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.deploy_method = :git
-  deploy.branch = 'master'
-end
+# activate :deploy do |deploy|
+#   deploy.build_before = true
+#   deploy.deploy_method = :git
+#   deploy.branch = 'master'
+# end
 
 # Helpers
 # Methods defined in the helpers block are available in templates
