@@ -1,47 +1,41 @@
-<body>
-  <ul class="flex-nav" role="navigation">
-    <li id="header-a"><a href="#about">Aminah the Dev</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#portfolio-header">Portfolio</a></li>
-    <li><a href="#contact-header">Contact</a></li>
-  </ul>
-  <main>
-    <section class="flex-container" id="about">
-      <h1>ABOUT</h1>
-      <img src="https://i.imgur.com/65EZuwx.jpg" alt="Aminah smiling" title="Aminah smiling">
-      <p class="about-blurb">I’m Aminah (ah-MEE-nah) Burch, former Air Force sergeant turned fullstack developer. I enjoy using technology to bring communities together, to solve problems, and to create more smiles than frowns. Frontend development is the creamer to my coding coffee; I enjoy designing as much as I like getting my hands dirty on the backend.</p>
-      <p class="about-blurb">While coding, I enjoy a nice, hot cup full of java, a whiteboard full of ideas, and my ears full of classic salsa or Bossa nova. Outside of coding, I enjoy getting sweaty either repetitively lifting heavy things or rolling around on a mat sparring with other humans through Brazilian Jiu Jitsu. I also enjoy connecting with family and friends, performing improv, making music, or just learning about the world through books, documentaries, visiting other local communities or traveling.</p>
-    </section>
+<ul class="flex-nav" role="navigation">
+  <li id="header-a"><a href="#about">Aminah the Dev</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#portfolio-header">Portfolio</a></li>
+  <li><a href="#contact-header">Contact</a></li>
+  <li><a href="/blog">Blog</a></li>
+</ul>
+<main>
+  <section class="flex-container" id="about">
+    <h1>ABOUT</h1>
+    <img class="about-img" src="https://i.imgur.com/65EZuwx.jpg" alt="Aminah smiling" title="Aminah smiling">
+    <p class="about-blurb">I’m Aminah (ah-MEE-nah) Burch, former Air Force sergeant turned fullstack developer. I enjoy using technology to bring communities together, to solve problems, and to create more smiles than frowns. Frontend development is the creamer to my coding coffee; I enjoy designing as much as I like getting my hands dirty on the backend.</p>
+    <p class="about-blurb">While coding, I enjoy a nice, hot cup full of java, a whiteboard full of ideas, and my ears full of classic salsa or Bossa nova. Outside of coding, I enjoy getting sweaty either repetitively lifting heavy things or rolling around on a mat sparring with other humans through Brazilian Jiu Jitsu. I also enjoy connecting with family and friends, performing improv, making music, or just learning about the world through books, documentaries, visiting other local communities or traveling.</p>
+  </section>
 
 
-    <h1 id="portfolio-header">PORTFOLIO</h1>
-    <section class="flex-portfolio">
-      <a href="#"><article class="portfolio-item">Portfolio Item 1</article></a>
-      <a href="#"><article class="portfolio-item">Portfolio Item 2</article></a>
-      <a href="#"><article class="portfolio-item">Portfolio Item 3</article></a>
-      <a href="#"><article class="portfolio-item">Portfolio Item 4</article></a>
-      <a href="#"><article class="portfolio-item">Portfolio Item 5</article></a>
-      <a href="#"><article class="portfolio-item">Portfolio Item 6</article></a>
-      <a href="#"><article class="portfolio-item">Portfolio Item 7</article></a>
-      <a href="#"><article class="portfolio-item">Portfolio Item 8</article></a>
-    </section>
+  <h1 id="portfolio-header">PORTFOLIO</h1>
+  <section class="flex-portfolio">
+    <a href="http://julieskudos.herokuapp.com"><article class="portfolio-item"><img class="portfolio-item" src="/images/julieskudos.png" alt="Image of a website called Julie's Kudos" /></article></a>
+    <article>Some worlds here or there.</article>
+    <a href="http://julieskudos.herokuapp.com"><article class="portfolio-item"><img class="portfolio-item" src="/images/julieskudos.png" alt="Image of a website called Julie's Kudos" /></article></a>
+  </section>
 
-    <section class="flex-container contact">
-      <h1 id="contact-header">CONTACT</h1>
-      <form class="form-container" method="post" action="">
-        <input placeholder="First Name" name="first-name" type="text">
-        <br>
-        <input placeholder="Last Name" name="last-name" type="text">
-        <br>
-        <input placeholder="Email" name="email" type="email">
-        <br>
-        <textarea placeholder="Feel free to leave a message..." row="45" column="30"></textarea>
-        <br>
-        <input type="submit" class="button" value="Submit">
-      </form>
-    </section>
-  </main>
-  <footer>
+  <section class="flex-container contact">
+    <h1 id="contact-header">CONTACT</h1>
+    <form class="form-container" method="post" action="">
+      <input placeholder="First Name" name="first-name" type="text">
+      <br>
+      <input placeholder="Last Name" name="last-name" type="text">
+      <br>
+      <input placeholder="Email" name="email" type="email">
+      <br>
+      <textarea placeholder="Feel free to leave a message..." row="45" column="30"></textarea>
+      <br>
+      <input type="submit" class="button" value="Submit">
+    </form>
+  </section>
+</main>
+<footer>
 
-  </footer>
-</body>
+</footer>

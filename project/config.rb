@@ -19,6 +19,13 @@ page '/*.txt', layout: false
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
+# Activate Blog
+
+activate :blog do |blog|
+  blog.name = "blog"
+  blog.prefix = "blog"
+end
+
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
